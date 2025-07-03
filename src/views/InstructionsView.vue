@@ -35,20 +35,19 @@
               <span class="important">What you need to do:</span>
               <ul class="list-disc pl-5 sub-list">
                 <li>
-                  <span class="important">1. Online Survey:</span> Complete a survey about your
+                  1. Online Survey: Complete a survey about your
                   demographics, personality, and shopping habits. The survey may take
                   about 15 minutes.
                 </li>
                 <li>
-                  <span class="important">2. Plugin:</span> Install the ShoppingFlow from the Chrome Web Store and comomplete at least one shopping session on complete two shopping tasks on Amazon Rufus and Perplexity.
-                  <span class="important">No personal identifiable information will be
+                  2. Plugin: Install the ShoppingFlow from the Chrome Web Store and complete two shopping tasks on Amazon Rufus and Perplexity. <span class="important">No personal identifiable information will be
                   collected. </span>
                 </li>
                 <li>
-                  <span class="important">3. Amazon Shopping Tasks:</span> Conduct two shopping tasks on Amazon platforms <span class="important">without checking out the items</span> using Rufus Chatbot and then finish a quick evaluation survey.
+                  3. Amazon Shopping Tasks:  Conduct two shopping tasks on Amazon platforms <span class="important">without checking out the items</span> using Rufus Chatbot and then finish a quick evaluation survey.
                 </li>
                 <li>
-                  <span class="important">4. Perplexity Shopping Tasks:</span> Conduct two shopping tasks on perplexity shopping <span class="important">without checking out the items</span> and then finish a quick evaluation survey.
+                  4. Perplexity Shopping Tasks: Conduct two shopping tasks on perplexity shopping <span class="important">without checking out the items</span> and then finish a quick evaluation survey.
                 </li>
               </ul>
             </li>
@@ -56,13 +55,21 @@
               <span class="important"> What you will get from Prolific: </span>
               <ul class="list-disc pl-5 sub-list">
                 <li>
-                  <span class="important"></span> The study takes less than one hour. Your base
-                  compensation for the survey will be processed when you click the completion link
-                  at the end of the task. 
+                  <span class="important"></span> The study takes less than one hour. Your base compensation for the survey will be processed when you click the completion link at the end of the task
                 </li>
               </ul>
             </li>
           </ul>
+          <h2>Step 1: User Persona Survey</h2>
+          <p>
+            <span class="important">Please fill out the survey to help us understand your background and shopping habits.
+          <a
+            href="https://neu.co1.qualtrics.com/jfe/form/SV_20jmb6zViDIQ6O2"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Survey Link</a
+          ></span>
+        </p>
         </div>
 
         <!-- 步骤1的内容 -->
@@ -96,14 +103,7 @@
             <li>
               <strong>Enter Your User ID</strong>
               <p>
-                After installation, enter the User ID you received from the
-                <a
-                  href="https://neu.co1.qualtrics.com/jfe/form/SV_20jmb6zViDIQ6O2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Survey</a
-                >
-                or the one we provided you. If you can't find your ID, please contact us.
+                After installation, enter  your prolific ID as the user ID. Please contact us if you need an ID.
               </p>
               <div class="image-container">
                 <img
@@ -153,8 +153,7 @@
               </p>
             </li>
           </ul>
-
-          <h2>Compensation Details</h2>
+          <!-- <h2>Compensation Details</h2>
           <ul class="list-disc pl-5">
             <li>
               <strong>Weekly Reward:</strong> $5 Amazon gift card for
@@ -169,26 +168,33 @@
               <strong>Bonus Reward:</strong> Complete four eligible weeks in a row to receive an
               additional $10 Amazon gift card.
             </li>
-          </ul>
+          </ul> -->
         </div>
 
         <!-- 步骤2的内容 -->
         <div v-if="activeTab === 'amazon-shopping'" class="content">
-          <h2>Login your Amazon.com to finish task 1</h2>
+          <h2>Login your Amazon.com and use Rufus chatbot to finish two tasks below:</h2>
           <ul class="list-disc pl-5">
-            You are setting up a workspace at home and need to purchase a monitor. Your total budget is $250. Your criterias are:
+            <li>
+              <span class="important">Please login your Amazon.com account and click the Rufus Chatbot icon on the top left corner of the page.</span>
+            </li>
+          </ul>
+
+          <h2>Task 1</h2>
+          <p> You are setting up a workspace at home and need to purchase a <span class="important">monitor</span>. Your total budget is <span class="important">$250</span>. Your criterias are:</p>
+          <ul class="list-disc pl-5">
             <li>Highest resolution possible (4K or better)</li>
             <li>Compact size to save desk space </li>
-            <li>This monitor is good for work, gaming and video editing.</li>
+            <li>This monitor is good for work, gaming and video editing.</li> 
           </ul>
-          <h2>Login your Amazon.com to finish task 2</h2>
+          <h2>Task 2</h2>
+          <p>You’re invited to a summer wedding and are looking to explore clothing options for the event. You already have some clothes but want to see if there’s anything better within your <span class="important">$200</span> budget. Your goals are:</p>
           <ul class="list-disc pl-5">
-            You’re invited to a summer wedding and are looking to explore clothing options for the event. You already have some clothes but want to see if there’s anything better within your $200 budget. Your goals are:
             <li>The theme for the wedding is green and the vibe is bright</li>
             <li>Stylish, seasonally appropriate options.</li>
             <li>Explore alternatives to the current wardrobe</li>
           </ul>
-          <h2>Complete this survey to get your reward</h2>
+          <h2>Complete this 5 minutes survey</h2>
               <a
                 href="https://neu.co1.qualtrics.com/jfe/form/SV_20jmb6zViDIQ6O2"
                 target="_blank"
@@ -198,22 +204,35 @@
 
       <!-- 步骤4的内容 -->
       <div v-if="activeTab === 'perplexity-shopping'" class="content">
-        <h2>Optional Interview:</h2>
-        <ul class="list-disc pl-5">
-          <li>
-            Click to
-            <a
-              href="https://outlook.office.com/bookwithme/user/c9066727be114e94850683ba61b854f1@northeastern.edu/meetingtype/azBPtEDaNUKcKyQ0Sl0i8Q2?anonymous&ep=mlink"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              book an interview</a
-            >
-            (If the link is not working, try in incognito/private mode or contact us)
-          </li>
-          <li>It takes about 20 mins.</li>
-          <li>You will receive an additional $10 Amazon gift card.</li>
-        </ul>
+        <h2>Please go to Perplexity and finish twwo tasks below:</h2>
+          <ul class="list-disc pl-5">
+            <li>
+              <span class="important">Please login your Amazon.com account and click the Rufus Chatbot icon on the top left corner of the page.</span>
+            </li>
+          </ul>
+
+          <h2>Task 1</h2>
+          <p> You are setting up a workspace at home and need to purchase a <span class="important">monitor</span>. Your total budget is <span class="important">$250</span>. Your criterias are:</p>
+          <ul class="list-disc pl-5">
+            <li>Highest resolution possible (4K or better)</li>
+            <li>Compact size to save desk space </li>
+            <li>This monitor is good for work, gaming and video editing.</li> 
+          </ul>
+          <h2>Task 2</h2>
+          <p>You’re invited to a summer wedding and are looking to explore clothing options for the event. You already have some clothes but want to see if there’s anything better within your <span class="important">$200</span> budget. Your goals are:</p>
+          <ul class="list-disc pl-5">
+            <li>The theme for the wedding is green and the vibe is bright</li>
+            <li>Stylish, seasonally appropriate options.</li>
+            <li>Explore alternatives to the current wardrobe</li>
+          </ul>
+          <h2>Complete this 5 minutes survey</h2>
+              <a
+                href="https://neu.co1.qualtrics.com/jfe/form/SV_20jmb6zViDIQ6O2"
+                target="_blank"
+                rel="noopener noreferrer"
+                >surveylink</a>
+
+
         </div>
       </div>
     </div>

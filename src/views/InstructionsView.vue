@@ -215,6 +215,8 @@
           <li>You will receive an additional $10 Amazon gift card.</li>
         </ul>
         </div>
+      </div>
+    </div>
   </div>
 </template>
 
